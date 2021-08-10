@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 600px;
+    background-color:#2E1D5F;
+}
+
+
+.card{
+    /*border-radius: 20px;*/
+    height: 100vh;
+    border: none;
+    box-sizing: border-box;
+    
+}
+
+.card-body{
+    text-align: center;
+    
+}
+
+/*************Page-1/Intro Page***************/
+.page-1-body{
+    background-color:#2E1D5F;
+}
+.heading{
+    text-align: left;
+    font-weight: 900;
+    font-size: 90px;
+    margin: none;
+    margin-bottom: 20px;
+    color: #fff;
+    line-height: 75px;
+    position: relative;
+}
+
+.image-1{
+    position: absolute;
+    top: -120px;
+    left: 180px;
+}
+
+.page-1-body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.form{
+    margin-bottom: 100px;
+}
+.name-input{
+    width: 320px;
+    height: 60px;
+    padding-left: 20px;
+    border:none;
+    border-radius: 28px;
+    background-color: #fff;
+}
+
+.name-input::placeholder{
+    padding-left: 10px;
+}
+
+.start-btn{
+    position: relative;
+    width: 320px;
+    height: 60px;
+    font-size: 18px;
+    border: none;
+    border-radius: 28px;
+    color: white;
+    background-color:#5A37BC;
+    margin-top: 10px;
+}
+
+.start-right-arrow{
+    position: absolute;
+    top: 22px;
+    right: 25px;
+}
+
+/********Quiz-page/App-page-2************/
+
+.page-2-body{
+    width: 375px;
+    height: 100vh;
+    text-align: center;
+}
+.illustration-1{
+    position: absolute;
+    right: 0;
+    bottom:0;
+}
+
+.number{
+    position: absolute;
+    bottom: -5px;
+    right: 18px;
+    width: 55px;
+    height: 55px;
+    font-weight: 600;
+    font-size: 20px;
+    color:#fff;
+    border: none;
+    background-color: #5A37BC;
+    border-radius: 50%;
+}
+.header-section{
+    position: relative;
+    text-align: left;
+    width: 375px;
+    height: 230px;
+    padding: 5px 15px;
+    background-color: #2E1D5F;
+    border-radius: 0px 0px 20px 20px;
+    color: #fff;
+}
+
+.heading-1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-name{
+    font-weight: 900;
+    margin-left: 15px;
+}
+.award{
+    margin-left: 10px;
+}
+.question{
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-size: 11px;
+    font-weight: 400;
+}
+.topic-1{
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+.heading-4{
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 900;
+    width: 145px;
+    height: 30px;
+    background-color: #5A37BC;
+    border: none;
+    border-radius: 10px;
+}
+
+.online{
+    width: 70px;
+    height: 20px;
+    background-color:#2E1D5F;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.top20{
+
+}
+
+.main-section{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.options-row-1{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.options-row-2{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.option{
+    text-align: left;
+    width: 160px;
+    height: 130px;
+    font-size: 40px;
+    font-weight: 700;
+    background-color: #E5E5E5;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.option:hover{
+    background-color: #2E1D5F;
+    color:#fff;
+}
+.letter{
+    margin-left: 20px;
+}
+.ellipse-img-1{
+    position: relative;
+    right: -42px;
+    bottom: -65px;
+}
+.next-section{
+    background-color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.next-btn{
+    width:320px;
+    height: 55px;
+    background-color: #5A37BC;
+    color:#fff;
+    border: none;
+    border-radius: 25px;
+}
+
+/**********Page-3***********/
+.drink-img{
+    position: relative;
+    right: 1px;
+    bottom: 1px;
+}
+
+/**********Page-4***********/
+.coins{
+    position: relative;
+    right: -8px;
+    bottom: -25px;
+}
+/**********Page-5***********/
+
+
+.page-5{
+    text-align: center;
+    width: 375px;
+    height: 100vh;
+    background-color: #2E1D5F;
+}
+
+.page-5-img{
+    width: 120px;
+    height: 180px;
+    position: absolute;
+    top:30px;
+
+}
+
+.content-section{
+    margin-top: 110px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.congrats{
+    position: relative;
+    font-size: 40px;
+    color: #fff;
+    line-height: 47px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.your-score{
+    font-size: 40px;
+    color:#fff;
+    line-height: 47px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.score{
+    font-size: 100px;
+    font-weight: 700;
+    color:#fff;
+}
+
+.button-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.play-again{
+    position: relative;
+    font-weight: 800;
+    width:320px;
+    height: 55px;
+    border: none;
+    border-radius: 28px;
+    color: #fff;
+    background-color: #5A37BC;
+    margin-bottom:20px;
+}
+
+.play-again-arrow{
+    position: absolute;
+    right:20px;
+    top: 20px;
+}
+
+.share{
+    font-weight: 800;
+    width:320px;
+    height: 55px;
+    border: none;
+    border-radius: 28px;
+    background-color: #fff;
+    color: #5A37BC;
+}
