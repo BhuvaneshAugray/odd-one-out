@@ -324,8 +324,15 @@
 
 /******** Page 1 to Page 2********/
     function toP2(){
+        if( document.querySelector("#page-1 input").value !== "") {
+
         document.getElementById('page-1').style.display = 'none';
         document.getElementById('page-2').style.display = 'block';
+        }
+        else  {
+            document.querySelector('#page-1 input').style.border= '2px solid red';
+        }
+        /*if( document.querySelector("#page-1 input").value == "")*/
     }
 
 /******** Page 2 to Page 3********/
